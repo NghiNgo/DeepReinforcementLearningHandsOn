@@ -11,7 +11,6 @@ import torch
 MCTS_SEARCHES = 10
 MCTS_BATCH_SIZE = 8
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("models", nargs='+', help="The list of models (at least 2) to play against each other")
